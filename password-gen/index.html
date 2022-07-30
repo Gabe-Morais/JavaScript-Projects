@@ -11,6 +11,22 @@
 </head>
 <body>
     
+    <h1 class="pg-title">Password Generator</h1>
+
+    <main class="container-input">
+        <span>Size <span  id="value"></span> Characters</span>
+        <input type="range" id="slider" class="slider" min="5" max="25" value="12"/>
+
+        <button id="button" class="buttton-cta">Generate password</button>
+    </main>
+
+    <div id="container-password" class="container-password hide">
+        <span class="title">Your new password is: </span>
+        <span id="password" class="password">123456789</span>
+        <span>click on generated password to copy to clipboard.</span>
+
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
