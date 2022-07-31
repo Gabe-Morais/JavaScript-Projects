@@ -28,3 +28,9 @@ function generatePassword(){
     password.innerHTML = pass;
 }
 
+    function copyPassword(){
+
+        navigator.clipboard.writeText(newPassword).then(() => alert("copied to clipboard!"));
+    
+    }
+
