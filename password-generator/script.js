@@ -26,6 +26,7 @@ function generatePassword(){
     
     containerPassword.classList.remove("hide");
     password.innerHTML = pass;
+    newPassword = pass;
 }
 
     function copyPassword(){
